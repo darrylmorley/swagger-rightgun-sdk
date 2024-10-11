@@ -1,10 +1,5 @@
 // core/ApiError.ts
 var ApiError = class extends Error {
-  url;
-  status;
-  statusText;
-  body;
-  request;
   constructor(request2, response, message) {
     super(message);
     this.name = "ApiError";

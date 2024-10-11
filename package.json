@@ -1,5 +1,7 @@
 {
+  "type": "module",
   "devDependencies": {
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-tsc": "^0.4.0"
   }
 }
